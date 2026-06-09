@@ -4,7 +4,7 @@ body {
 }
 
 main {
-  background-color: aquamarine;
+  background-color: rgb(4, 78, 54);
   width: 80vh;
   height: 80vh;
   margin: 0 auto 0 auto;
@@ -16,4 +16,18 @@ main {
 main > div {
   background-color: brown;
   border: 2px solid black;
+}
+
+main div#box-1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+main div#box-2 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 5;
 }
