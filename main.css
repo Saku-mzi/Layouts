@@ -15,7 +15,15 @@ main {
 main div {
   display: grid;
   place-items: center;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
+}
+main div a {
+  text-decoration: none;
+  color: inherit;
+}
+main div a ::after {
+  text-decoration: none;
+  color: inherit;
 }
 
 main div#box-1 {
